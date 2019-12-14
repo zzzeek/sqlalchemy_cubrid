@@ -3,6 +3,12 @@ sqlalchemy_cubrid
 
 SQLAlchemy driver for the CUBRID database
 
+NOTE: this code appears to be based on an internal fork of SQLAlchemy, as it refers to many non-existent "sqlalchemy.dialects.cubrid" and "sqlalchemy.connectors.cubird" which do not exist (nor should they have to) so there is not actually anything working here.
+
+I don't know where I got this code from so if someone were to be interested in this, i will gladly transfer this repo over to them.
+
+
+
 Release notes
 =================
 * Tested with CUBRID 8.4.1.6004
@@ -18,5 +24,6 @@ Known Limitations
 
 ToDo
 =================
+* 
 * Test CUBRID 8.4.3 and 9.0 beta
 * Test transactions using the new python driver
